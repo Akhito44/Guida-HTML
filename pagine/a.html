@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guida HTML | Ancora</title>
+    </head>
+    <body bgcolor="#eeeeee">
+        <font face="Tahoma,Verdana,Arial" size="4" color="#444444">
+            <h1 align="center">
+                <a href="./community.html">
+                    <img
+                        src="../immagini/icone/community.png"
+                        width="35"
+                        align="left"
+                    />
+                </a>
+                Ancora
+                <a href="../index.html">
+                    <img
+                        src="../immagini/icone/home.png"
+                        width="35"
+                        align="right"
+                    />
+                </a>
+            </h1>
+            <table width="50%" align="center">
+                <td>
+                    <p>
+                        <h3>
+                            Indice pagina:
+                        </h3>
+                        <ul>
+                            <li>
+                                <a href="#refweb">
+                                    Link a siti web
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#refemail">
+                                    Link a indirizzi email
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#relativi">
+                                    Percorsi relativi
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#refpagina">
+                                    Percorsi interni
+                                </a>
+                            </li>
+                        </ul>
+                    </p>
+                    <h3>
+                        <a name="refweb">
+                            Link a siti web
+                        </a>
+                    </h3>
+                    <p>
+                        Ecco la sintassi per creare un link con riferimento a un sito web:
+                    </p>
+                    <center>
+                        <img
+                            src="../immagini/ancora/refweb.png"
+                            width="600"
+                        />
+                    </center>
+                    <p>
+                        È indifferente che la destinazione dell'ancora sia una pagina HTML di un sito, un'immagine, un file pdf, un file zip, o un file exe: il meccanismo del link funziona allo stesso modo indipendentemente dal tipo di risorsa; poi il browser si comporterà in modo differente a seconda della risorsa.
+                    </p>
+                    <h3>
+                        <a name="refemail">
+                            Link a indirizzi email
+                        </a>
+                    </h3>
+                    <p>
+                        È anche possibile specificare un indirizzo email come link.
+                        In questo caso si aprirà direttamente il client di posta dell'utente con l'indirizzo email pre-impostato.
+                        <br>
+                        La sintassi è la seguente:
+                    </p>
+                    <center>
+                        <img
+                            src="../immagini/ancora/refemail.png"
+                            width="450"
+                        />
+                    </center>
+                    <h3>
+                        <a name="relativi">
+                            Percorsi relativi
+                        </a>
+                    </h3>
+                    <p>
+                        I percorsi relativi fanno riferimento alla posizione degli altri file rispetto al documento in cui ci si trova in quel momento.
+                        Per linkare due pagine che si trovano all'interno della stessa directory è sufficiente scrivere:
+                    </p>
+                    <center>
+                        <img
+                            src="../immagini/ancora/relativi1.png"
+                            width="800"
+                        />
+                    </center>
+                    <p>
+                        Dalla pagina index.html vogliamo cioè far riferimento al file interna.html, che si trova nella directory interna, che a sua volta si trova all'interno della directory prima.
+                        <br>
+                        La sintassi è la seguente:
+                    </p>
+                    <center>
+                        <img
+                            src="../immagini/ancora/relativi2.png"
+                            width="700"
+                        />
+                    </center>
+                    <p>
+                        Vediamo adesso l'esempio opposto: dalla pagina interna vogliamo far riferimento a una pagina (index.html) che si trova più in alto di un livello:
+                    </p>
+                    <center>
+                        <img
+                            src="../immagini/ancora/relativi3.png"
+                            width="550"
+                        />
+                    </center>
+                    <h3>
+                        <a name="refpagina">
+                            Percorsi interni
+                        </a>
+                    </h3>
+                    <p>
+                        In assenza dell'attributo href, che indica il collegamento ipertestuale le àncore non sono viste come link, ma la loro formattazione è indistinguibile dal "normale" testo.
+                        In un ipotetico indice è allora possibile far riferimento all'ancora presente all'interno del documento attraverso un link che punti ad essa:
+                    </p>
+                    <center>
+                        <img
+                            src="../immagini/ancora/refpagina1.png"
+                            width="500"
+                        />
+                    </center>
+                    <center>
+                        <img
+                            src="../immagini/ancora/refpagina2.png"
+                            width="400"
+                        />
+                    </center>
+                    <p>
+                        il cancelletto indica che il collegamento deve cercare un àncora chiamata "primo" all'interno della pagina stessa.
+                    </p>
+                    <p>
+                        <h3>Indice tags:</h3>
+                        <ul>
+                            <li>
+                                Formattazione testo
+                                <ul>
+                                    <li>
+                                        <a href="./br.html">
+                                            Tag a capo
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./p.html">
+                                            Tag paragrafo
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./heading.html">
+                                            Tag heading
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./font.html">
+                                            Tag font
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./img.html">
+                                    Immagini
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./table.html">
+                                    Tabelle
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./elenchi.html">
+                                    Elenchi puntati e numerati
+                                </a>
+                            </li>
+                        </ul>
+                    </p>
+                </td>
+            </table>
+        </font>
+    </body>
+</html>
